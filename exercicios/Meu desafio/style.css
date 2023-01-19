@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+:root{
+    --cor01: #246620;
+    --cor02: #95EA8F;
+    --cor03: #52E648;
+    --cor04: #41663E;
+    --cor05: #40B337;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+
+
+header{
+     background-image: linear-gradient(to bottom, var(--cor01), var(--cor03));
+    text-align: center;
+    font-family: 'Klee One';
+    font-size: larger;
+    font-weight: bold;
+   
+}
+header > h1 {
+    padding: 20px;
+    font-size: bold;
+    font-family: 'Satisfy', cursive;
+}
+header > p{
+    font-size: bold;
+    padding: 10px;
+}
+nav{
+    background-color: var(--cor05);
+    border-radius: 0px 0px 7px black;
+   
+    
+}
+    nav > a{
+        text-decoration: none;
+        color: var(--cor02);
+        font-weight: bolder;
+        margin: 10px;
+        transition-duration: 0.7s;
+        padding: 10px;
+        font-family: 'Satisfy';
+}
+    nav > a:hover{
+        background-color:var(--cor01);
+        text-align: center;
+        border-radius: 7px;
+}
+body{
+    background-image: linear-gradient(to top, var(--cor01), var(--cor02));
+}
+article{
+   font-family: 'Klee One', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bold;
+}
+main{
+    background-color: var(--cor04);
+    min-width: 300px;
+    max-width: 600px; 
+    margin: auto;
+    padding: 17px;  
+    box-shadow: 0px 0px 8px black;
+    border-radius: 15px;  
+
+    min-width: 320px;
+    max-width: 800px;
+}
+img{
+    width: 60%;
+    margin: auto;
+    display: block;
+
+}
+ul.best{
+    list-style-position: inside;
+    list-style-type: '\26BD';    
+}
+
+ul a:hover{
+    background-color: var(--cor05);
+    border-radius: 10px;
+    transition-duration: 0.7s;
+}
+
+p > a {
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.7s;
+}
+
+aside a:hover{
+    background-color: var(--cor02);   
+    border-radius: 7px;
+
+}
+
+
+li > a.nerf{
+    text-decoration: none;
+    color: var(--cor02);
+}
+footer{
+    background-color: var(--cor02);
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Satisfy', 'Cursive';
+    margin: 10px;
+}
+footer > a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    background-color: var(--cor04);
+    border-radius: 7px;
+    transition-duration: 0.7s;
+}

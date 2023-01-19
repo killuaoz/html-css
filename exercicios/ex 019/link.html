@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Link</title>
+<style>
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a{
+        color: blue;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:visited{
+        color: red;
+       
+    }
+    a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    a:active{
+        color: aquamarine;
+    }
+    a::before{
+        content: '⚞';
+    }
+    a::after{
+        content: '⚟';
+    }
+    /*
+    Ressalva. Consigo colocar a tag class em qualquer elemento*/
+    /*
+    Nas CSS temos:
+    # = id 
+    . = class
+    : = pseudo-class
+    :: = elementos 
+    > = children
+    */
+</style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li> <a href="https://gustavoguanabara.github.io">GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com">Site do curso em video</a></li>
+    </ul>
+    
+</body>
+</html>

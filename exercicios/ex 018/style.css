@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*
+id em HTML é = # em CSS
+class em HTML é = . em CSS
+
+consigo aplicar mais de uma classe em titulo ou palavra.
+*/
+body{
+
+    background-color: rgb(109, 172, 118);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    color:rgb(0, 0, 0);
+}
+#Principal{
+    text-align: center;
+    color: rgb(221, 221, 221) ;
+    background-color:rgb(19, 75, 40);
+}
+
+
+h2{
+    color: chartreuse;
+
+}
+.basico{
+    color: chartreuse;
+
+}
+.intermediario{
+    color: rgb(21, 173, 1);
+
+}
+.avancado{
+    color: rgb(7, 77, 7);
+
+}
