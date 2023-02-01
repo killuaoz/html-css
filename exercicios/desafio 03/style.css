@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 
 :root{
@@ -8,9 +10,9 @@
     --cor03: #EBFAF2;
     --cor04: #3A3D3B;
     --cor05: #D3E0DA;
+
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
 
 
 *{
@@ -20,15 +22,18 @@
 html, body{
     min-height: 100vh;
     background-color: var(--cor05);
+    font-size: 4vw;
+   
 }
 
 header{
     background-color: var(--cor04);
-    padding: 40px;
+    padding: 30px;
     text-align: center;
     color: var(--cor02);
-    font-family: 'Explora', cursive;
-    font-variant: small-caps;
+    font-family: 'Klee One';
+    font-size: small;
+    
 
 }
 a{
@@ -42,21 +47,37 @@ a:hover{
 article{
     padding: 15vh;
     line-height: 1.5em;
+    font-family: 'Satisfy', cursive;
+    font-size: large;
     
 
 }
 article.imagem{
     background-color: var(--cor04);
+    box-shadow: inset 4px 4px 10px 0px #3A3D3B;
+    background-attachment: fixed;
 }
 article.imagem > p{
-    background-color: var(--cor01);
+    background-color:#d3e0da81;
     width: 200px;
     padding: 10px;
+   
     
+}
+article#img1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+article#img2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
 }
 footer{
     text-align: center;
     background-color: #3A3D3B;
-    padding: 20px;
-    font-family: 'Explora', cursive;
+    padding: 10px;
+    font-family: 'Klee One', cursive;
+    font-size: medium;
 }
