@@ -1,2 +1,62 @@
 @charset "UTF-8";
 
+
+
+:root{
+    --cor01: #AFBAB5;
+    --cor02: #737A77;
+    --cor03: #EBFAF2;
+    --cor04: #3A3D3B;
+    --cor05: #D3E0DA;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html, body{
+    min-height: 100vh;
+    background-color: var(--cor05);
+}
+
+header{
+    background-color: var(--cor04);
+    padding: 40px;
+    text-align: center;
+    color: var(--cor02);
+    font-family: 'Explora', cursive;
+    font-variant: small-caps;
+
+}
+a{
+    text-decoration: none;
+    color: var(--cor02);
+}
+a:hover{
+    color: #D3E0DA;
+    transition-duration: 0.4s;
+}
+article{
+    padding: 15vh;
+    line-height: 1.5em;
+    
+
+}
+article.imagem{
+    background-color: var(--cor04);
+}
+article.imagem > p{
+    background-color: var(--cor01);
+    width: 200px;
+    padding: 10px;
+    
+}
+footer{
+    text-align: center;
+    background-color: #3A3D3B;
+    padding: 20px;
+    font-family: 'Explora', cursive;
+}
