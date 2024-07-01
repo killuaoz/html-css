@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 *{
     padding: 0px;
@@ -11,6 +11,7 @@
     --font3:'passion One';
 
 }
+
 
 
 
@@ -70,6 +71,7 @@ p.plus{
     width: 400px;
 }
 
+
 section.normal > p{
     margin: 20px;
 }
@@ -90,6 +92,7 @@ li{
     margin: 50px;
     text-align: center;
  }
+
 
 footer{
     background-color: #354173;
