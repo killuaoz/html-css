@@ -1,0 +1,98 @@
+@charset "UTF-8"
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --font1: verdana, gemeva, tahoma, sans-serif;
+    --font2:"Playwrite NG Modern";
+    --font3:'passion One';
+
+}
+
+
+
+
+
+
+
+
+html, body{
+    min-height: 100vh;
+    background-color: #BAC5F4;
+    text-align: center;
+    font-family: var(--font1);
+}
+header{
+    background-color: #354173;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-variant: small-caps;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-size: large;
+    text-align: justify;
+}
+
+h2{
+    font-variant: small-caps;
+}
+
+section.normal{
+    background-color: #BAC5F4;
+}
+
+section.foto {
+    background-color: #515370;
+    background-image: url(midia/foto.png);
+    background-size: cover;
+    box-shadow: inset 6px 6px 10px 0px white;
+    background-attachment: fixed;
+    
+}
+
+section.foto > p{
+    background-color: #35417359;
+    margin: 20px;
+}
+
+p.plus{
+    width: 400px;
+}
+
+section.normal > p{
+    margin: 20px;
+}
+
+video{
+    margin-left: 20px;
+}
+
+img{
+    margin-left: 20px;
+}
+
+li{
+    margin-left: 40px;
+}
+ p.especial{
+    background-color: #515370;
+    margin: 50px;
+    text-align: center;
+ }
+
+footer{
+    background-color: #354173;
+    padding: 10px;
+    font-variant: small-caps; 
+}
