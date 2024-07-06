@@ -10,24 +10,22 @@
     --font2:"Playwrite NG Modern";
     --font3:'passion One';
 
+
+
+
+
 }
-
-
-
-
-
-
 
 
 
 html, body{
     min-height: 100vh;
-    background-color: #BAC5F4;
+    background-color: #FFFFFF;
     text-align: center;
     font-family: var(--font1);
 }
 header{
-    background-color: #354173;
+    background-color: #001542;
     color: white;
     text-align: center;
 }
@@ -43,6 +41,11 @@ section{
     line-height: 2em;
     font-size: large;
     text-align: justify;
+    max-width: 400px;
+    min-width: 800px;
+    margin: auto;
+    text-align: center;
+
 }
 
 h2{
@@ -50,7 +53,7 @@ h2{
 }
 
 section.normal{
-    background-color: #BAC5F4;
+    background-color: #ffffff3a;
 }
 
 section.foto {
@@ -65,10 +68,13 @@ section.foto {
 section.foto > p{
     background-color: #35417359;
     margin: 20px;
+   
 }
 
 p.plus{
     width: 400px;
+    text-align: center;
+    display:  inline-flex;
 }
 
 
@@ -95,7 +101,9 @@ li{
 
 
 footer{
-    background-color: #354173;
+    background-color: #001542;
     padding: 10px;
     font-variant: small-caps; 
+    font: bolder;
+    color: #FFFFFF;
 }
